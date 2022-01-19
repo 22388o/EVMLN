@@ -1,2 +1,4 @@
-# EVMLN
-Ethereum Virtual Machina on Lightning Network
+# Ethereum Virtual Machine on Lightning Network
+# Motivation
+
+# Abstract
