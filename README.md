@@ -3,7 +3,7 @@
 
 Ethereum Virtual Machine on Lightning Network, the layer 2 on Bitcoin.
 # Motivation
-Using technology from Ethereum and security backed by Bitcoin, we create a EVM with compatibility to Layer 2. Making DeFi on Bitcoin grow and have new products and applications. Nowadays many blockchains are highly centralized like Polygon, where for we create healthy environment of innovation is necessary do this using a blockchain trutly decentralized.
+Using technology from Ethereum and security backed by Bitcoin, we create a EVM with compatibility to Layer 2. Making DeFi on Bitcoin grow and have new products and applications. Nowadays many blockchains are highly centralized like Polygon, where for we will create healthy environment of innovation is necessary do this using a blockchain trutly decentralized.
 
 1)New language programming, Logic
 
@@ -16,6 +16,8 @@ Using technology from Ethereum and security backed by Bitcoin, we create a EVM w
 5)Speed by Lightning Network
 
 6)Decentralized
+
+7)Without token (we will use Bitcoin)
 
 # Abstract
 In form of unite Rust and Solidity, we create a new language programming, the Logic
