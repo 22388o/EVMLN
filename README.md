@@ -7,13 +7,15 @@ Using technology from Ethereum and security backed by Bitcoin, we create a EVM w
 
 1)New language programming, Logic
 
-2)Interopibility between Chains
+2)Interoperability between Chains
 
 3)Backed by Bitcoin
 
 4)Smart contratcs by Ethereum
 
 5)Speed by Lightning Network
+
+6)Decentralized
 
 # Abstract
 In form of unite Rust and Solidity, we create a new language programming, the Logic
