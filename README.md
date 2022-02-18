@@ -19,5 +19,7 @@ Using technology from Ethereum and security backed by Bitcoin, we create a EVM w
 
 7)Without token (we will use Bitcoin)
 
+8)Sidechain
+
 # Abstract
 In form of unite Rust and Solidity, we create a new language programming, the Logic
