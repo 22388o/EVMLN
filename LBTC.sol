@@ -15,7 +15,7 @@ contract SwapLBTC is Initializable, OwnableUpgradeable, ISwapRBTC, IERC777Recipi
   event sideTokenBtcRemoved(address sideTokenBtc);
   event RbtcSwapRbtc(address sideTokenBtc, uint256 amountSwapped);
   event WithdrawalRBTC(address indexed src, uint256 wad);
-  event WithdrawalWRBTC(address indexed src, uint256 wad);
+  event WithdrawalBTC(address indexed src, uint256 wad);
   event Deposit(address sender, uint256 amount, address tokenAddress);
   
   IERC1820Registry constant internal ERC1820 = IERC1820Registry(0x1820a4B7618BdE71Dce8cdc73aAB6C95905faD24);
@@ -68,7 +68,7 @@ contract SwapLBTC is Initializable, OwnableUpgradeable, ISwapRBTC, IERC777Recipi
     require(sideTokenBtc.balanceOf(address(this)) >= amount, "SwapRBTC: amount > balance");
     balance[msg.sender] -= amount;
     bool successCall = sideTokenBtc.transferFrom(address(this), msg.sender, amount);
-    require(successCall, "SwapRBTC: withdrawalWRBTC failed");
+    require(successCall, "SwapRBTC: withdrawalBTC failed");
     emit WithdrawalWRBTC(msg.sender, amount);
   }
 
