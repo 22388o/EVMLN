@@ -19,7 +19,9 @@ Using technology from Ethereum and security backed by Bitcoin, we create a EVM w
 
 7)Sidechain
 
-8)Fork Go Ethereum to create EVM for Sidechain (https://github.com/22388o/Fork-EVMLN/tree/master/eth)
+8)Fork Go Ethereum to create EVM for Sidechain (https://github.com/22388o/Fork-EVMLN)
+
+9)DC(Delegate Channel), consensus hydbrid between Lightning Network and PoW/Pos from Ethereum
 
 # Abstract
 We will use Solidity
