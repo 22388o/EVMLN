@@ -5,7 +5,6 @@ Ethereum Virtual Machine on Lightning Network, the layer 2 on Bitcoin.
 # Motivation
 Using technology from Ethereum and security backed by Bitcoin, we create a EVM with compatibility to Layer 2. Making DeFi on Bitcoin grow and have new products and applications. Nowadays many blockchains are highly centralized like Polygon, where for we will create healthy environment of innovation is necessary do this using a blockchain trutly decentralized.
 
-
 1) Interoperability between Chains
 
 2)Backed by Bitcoin
@@ -20,7 +19,7 @@ Using technology from Ethereum and security backed by Bitcoin, we create a EVM w
 
 7)Sidechain
 
-8) Fork Go Ethereum to create EVM for Sidechain (https://github.com/22388o/Fork-EVMLN/tree/master/eth)
+8)Fork Go Ethereum to create EVM for Sidechain (https://github.com/22388o/Fork-EVMLN/tree/master/eth)
 
 # Abstract
 We will use Solidity
