@@ -1,27 +1,20 @@
-# Ethereum Virtual Machine on Lightning Network 
-![image](https://user-images.githubusercontent.com/83122757/154472275-7ea9f0db-81f2-4b78-93ef-ab2a26fb0e02.png)
+# Swarm ENS interface
 
-Ethereum Virtual Machine on Lightning Network, the layer 2 on Bitcoin.
-# Motivation
-Using technology from Ethereum and security backed by Bitcoin, we create a EVM with compatibility to Layer 2. Making DeFi on Bitcoin grow and have new products and applications. Nowadays many blockchains are highly centralized like Polygon, where for we will create healthy environment of innovation is necessary do this using a blockchain trutly decentralized.
+## Usage
 
-1)Interoperability between Chains
+Full documentation for the Ethereum Name Service [can be found as EIP 137](https://github.com/ethereum/EIPs/issues/137).
+This package offers a simple binding that streamlines the registration of arbitrary UTF8 domain names to swarm content hashes.
 
-2)Backed by Bitcoin
+## Development
 
-3)Smart contratcs by Ethereum
+The SOL file in contract subdirectory implements the ENS root registry, a simple
+first-in, first-served registrar for the root namespace, and a simple resolver contract;
+they're used in tests, and can be used to deploy these contracts for your own purposes.
 
-4)Speed by Lightning Network
+The solidity source code can be found at [github.com/arachnid/ens/](https://github.com/arachnid/ens/).
 
-5)Decentralized
+The go bindings for ENS contracts are generated using `abigen` via the go generator:
 
-6)Without token (we will use Bitcoin)
-
-7)Sidechain
-
-8)Fork Go Ethereum to create EVM for Sidechain (https://github.com/22388o/Fork-EVMLN)
-
-9)DC(Delegate Channel), consensus hydbrid between Lightning Network and PoW/Pos from Ethereum
-
-# Abstract
-We will use Solidity
+```shell
+go generate ./contracts/ens
+```
