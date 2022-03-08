@@ -5,9 +5,13 @@ Making smart Contracts happen on Bitcoin.
 
 # Value
 -SideChain
+
 -Consensus Hybrid with PoS from Ethereum (Delegate Channel)
+
 -Speed by Lightning Network
+
 -Smart Contracts by Ethereum (Solidity)
+
 -Security by Bitcoin(Layer One)
 
 # Swarm ENS interface
