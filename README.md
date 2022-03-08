@@ -1,3 +1,15 @@
+# Ethereum Virtual Machine on Lightning Network
+![image](https://user-images.githubusercontent.com/83122757/157217639-8eca01af-14e8-4382-8c1c-4abdc093021d.png)
+
+Making smart Contracts happen on Bitcoin.
+
+# Value
+-SideChain
+-Consensus Hybrid with PoS from Ethereum (Delegate Channel)
+-Speed by Lightning Network
+-Smart Contracts by Ethereum (Solidity)
+-Security by Bitcoin(Layer One)
+
 # Swarm ENS interface
 
 ## Usage
